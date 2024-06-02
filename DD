@@ -1,0 +1,6 @@
+/// <summary>
+  /// Gets or sets the text to pass to the 3Dconnexion driver to use in Properties Utility.
+  /// </summary>
+  /// <remarks>If the connection to the navlib is already open, the connection is closed and
+  /// reopened.</remarks>
+  __declspec(property(get = GetProfileHint, put = PutProfileHint)) std::string Profile;
